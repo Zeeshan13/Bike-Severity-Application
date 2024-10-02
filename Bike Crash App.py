@@ -8,8 +8,9 @@ import matplotlib.pyplot as plt
 import joblib
 
 # Load the trained pipeline with SMOTE
-pipeline = joblib.load("C:/Users/Zeeshan/Desktop/Python Codes/App/New folder (2)/random_forest_with_smote.joblib")
+pipeline = joblib.load("C:/Users/Zeeshan/Downloads/Bike-Severity-Application-main/Bike-Severity-Application-main/random_forest_with_smote.joblib")
 #pipeline = joblib.load("C:/Users/Zeeshan/Desktop/Python Codes/App/New folder (2)/random_forest_model.joblib")
+
 
 
 st.title('Crash Severity Prediction App')
@@ -67,22 +68,21 @@ if st.button('Predict Severity'):
 
     
     
-    
 # Displaying additional information based on the prediction
 if 'severity' in locals():
     if severity == 'Low':
         st.write('Chances to meet with an incident is less ')
-        st.image('C:/Users/Zeeshan/Desktop/Python Codes/App/GREEN.png', caption='Low Severity Scenario')
+        st.image('C:/Users/Zeeshan/Downloads/Bike-Severity-Application-main/Bike-Severity-Application-main/GREEN.png', caption='Low Severity Scenario')
         st.header('Always were Helmet and follow traffic rules. The option you chose are safe for biking')
         # Optionally display an image or additional info
     elif severity == 'Medium':
         st.write('Chances to meet with an incident is medium')
-        st.image('C:/Users/Zeeshan/Desktop/Python Codes/App/YELLOW.png', caption='Medium Severity Scenario')
+        st.image('C:/Users/Zeeshan/Downloads/Bike-Severity-Application-main/Bike-Severity-Application-main/YELLOW.png', caption='Medium Severity Scenario')
         st.header('Follow Traffic rules and remember SOMEONE is Waiting FOR YOU, BEcarefull, Better Late Than Never')
         # Optionally display an image or additional info
     else:  # Assuming severity == 'High'
         st.write('Chances to meet with an incident is High, Be carefull')
-        st.image('C:/Users/Zeeshan/Desktop/Python Codes/App/RED.png', caption='High Severity Scenario')
+        st.image('C:/Users/Zeeshan/Downloads/Bike-Severity-Application-main/Bike-Severity-Application-main/RED.png', caption='High Severity Scenario')
         st.header('Follow Traffic rules and remember SOMEONE is Waiting FOR YOU, BEcarefull, Better Late Than Never')
         # Optionally display an image or additional info
         
