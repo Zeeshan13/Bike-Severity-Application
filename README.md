@@ -17,3 +17,7 @@ tool to assess risk levels for cyclists.
 ## Final Product
 
 The culmination of this project is an accessible and user-friendly web application that provides cyclists with real-time risk assessments. By inputting factors such as the day of the week, time of day, and current weather conditions, users can receive a prediction on the risk level of cycling in specific conditions. This tool not only raises awareness about the safety of Austin's cycling environment but also empowers cyclists with the knowledge to make informed decisions about their travel.
+
+
+We can access the application on the streamlit web by visiting the following link:
+https://bike-severity-application-fgpeaitrtcfy5y4tnrlbst.streamlit.app/
