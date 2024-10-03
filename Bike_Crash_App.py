@@ -74,17 +74,17 @@ if st.button('Predict Severity'):
 if 'severity' in locals():
     if severity == 'Low':
         st.write('Chances to meet with an incident is less ')
-        st.image('C:/Users/Zeeshan/Downloads/Bike-Severity-Application-main/Bike-Severity-Application-main/GREEN.png', caption='Low Severity Scenario')
+        st.image('GREEN.png', caption='Low Severity Scenario')
         st.header('Always were Helmet and follow traffic rules. The option you chose are safe for biking')
         # Optionally display an image or additional info
     elif severity == 'Medium':
         st.write('Chances to meet with an incident is medium')
-        st.image('C:/Users/Zeeshan/Downloads/Bike-Severity-Application-main/Bike-Severity-Application-main/YELLOW.png', caption='Medium Severity Scenario')
+        st.image('YELLOW.png', caption='Medium Severity Scenario')
         st.header('Follow Traffic rules and remember SOMEONE is Waiting FOR YOU, BEcarefull, Better Late Than Never')
         # Optionally display an image or additional info
     else:  # Assuming severity == 'High'
         st.write('Chances to meet with an incident is High, Be carefull')
-        st.image('C:/Users/Zeeshan/Downloads/Bike-Severity-Application-main/Bike-Severity-Application-main/RED.png', caption='High Severity Scenario')
+        st.image('RED.png', caption='High Severity Scenario')
         st.header('Follow Traffic rules and remember SOMEONE is Waiting FOR YOU, BEcarefull, Better Late Than Never')
         # Optionally display an image or additional info
         
