@@ -8,7 +8,9 @@ import matplotlib.pyplot as plt
 import joblib
 
 # Load the trained pipeline with SMOTE
-pipeline = joblib.load("C:/Users/Zeeshan/Downloads/Bike-Severity-Application-main/Bike-Severity-Application-main/random_forest_with_smote.joblib")
+#pipeline = joblib.load("C:/Users/Zeeshan/Downloads/Bike-Severity-Application-main/Bike-Severity-Application-main/random_forest_with_smote.joblib")
+pipeline = joblib.load("random_forest_with_smote.joblib")
+
 #pipeline = joblib.load("C:/Users/Zeeshan/Desktop/Python Codes/App/New folder (2)/random_forest_model.joblib")
 
 
